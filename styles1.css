@@ -1,0 +1,101 @@
+/* Product Details Page Styles */
+
+#product-details {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.product-gallery {
+    flex: 1;
+}
+
+.product-gallery img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-thumbnails {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.product-thumbnails img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    margin-bottom: 15px;
+}
+
+.buy-now-btn, .add-to-cart-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now-btn {
+    background-color: #f4c542;
+}
+
+.add-to-cart-btn {
+    background-color: #222;
+    color: white;
+}
+
+.buy-now-btn:hover, .add-to-cart-btn:hover {
+    background-color: #d1a935;
+}
+
+/* Reviews Section */
+#reviews {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.review h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Product Video Section */
+#product-videos {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+#product-videos video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
